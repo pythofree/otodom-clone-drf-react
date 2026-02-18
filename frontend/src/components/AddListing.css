@@ -1,0 +1,67 @@
+.add-listing-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.add-listing-container h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.add-listing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-listing-form input,
+.add-listing-form select,
+.add-listing-form textarea {
+  padding: 12px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.add-listing-form input:focus,
+.add-listing-form select:focus,
+.add-listing-form textarea:focus {
+  border-color: #2e7d32;
+  outline: none;
+}
+
+.add-listing-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.add-listing-form button {
+  padding: 12px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-listing-form button:hover {
+  background-color: #1b5e20;
+}
+
+.error-message {
+  color: #d32f2f;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  white-space: pre-line;
+}

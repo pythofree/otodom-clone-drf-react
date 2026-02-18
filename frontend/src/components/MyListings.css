@@ -1,0 +1,119 @@
+/* src/components/MyListings.css */
+
+.my-listings-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 30px;
+}
+
+.no-listings {
+  text-align: center;
+  color: #777;
+}
+
+.listings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 25px;
+}
+
+.listing-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.listing-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+.listing-card:hover .listing-image {
+  transform: scale(1.02);
+}
+
+
+.listing-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+.usd {
+  font-size: 14px;
+  color: #666;
+  margin-left: 6px;
+}
+
+.location {
+  font-size: 14px;
+  color: #555;
+}
+
+.description {
+  font-size: 15px;
+  color: #444;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c62828;
+}
+
+.edit-btn {
+  background-color: #1976d2;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #1565c0;
+}
+
+.pay-btn {
+  background-color: #43a047;
+  color: white;
+}
+
+.pay-btn:hover {
+  background-color: #388e3c;
+}

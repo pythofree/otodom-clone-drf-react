@@ -72,9 +72,6 @@ cd frontend
 npm install
 npm start
 
-📸 Screenshots
-
-(Add screenshots of the app here)
 
 🎯 Purpose of the Project
 
